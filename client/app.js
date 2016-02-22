@@ -2,18 +2,22 @@
 // Declare app level module which depends on views, and components
 angular.module('collaby', [
   'ngRoute',
-  'collaby.chat',
+  'collaby.whiteboard',
   'collaby.tasks',
-  'collaby.whiteboard'
+  'collaby.chat'
 ])
 .config(function($routeProvider) {
   $routeProvider
-    .when('/chat', {
-      templateUrl: 'v.chat/chat.html',
-      controller: 'chatController'
+    .when('/whiteboard', {
+      templateUrl: 'v.whiteboard/whiteboard.html',
+      controller: 'whiteboardController'
     })
     .when('/tasks', {
       templateUrl: 'v.tasks/tasks.html',
       controller: 'tasksController'
+    })
+    .when('/chat', {
+      templateUrl: 'v.chat/chat.html',
+      controller: 'chatController'
     })
 });
