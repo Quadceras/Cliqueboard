@@ -1,6 +1,7 @@
 # Cliqueboard
 
-Providing an arsenal of tools for team collaboration
+Providing an arsenal of tools for team collaboration  
+![cliqueboard](https://cloud.githubusercontent.com/assets/13752714/15801417/ef3e49a6-2a61-11e6-822d-c22c8c3f85eb.png)
 
 ## Team
 
